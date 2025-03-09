@@ -11,19 +11,29 @@
 			align-items: center;
 			justify-content: center;
 			height: 100vh;
+			flex-direction: column; /* add this */
 		}
 		h1{
 			color: white;
 			font-size: 50px;
 			margin: 20px;
 		}
+		ul{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			margin-top: 20px; /* add this */
+		}
 	</style>
 </head>
 <body>
 	<h1>Hello Ciclano e Beltrano</h1>
 	<ul>
-		<li>
-			<a href="/figurinhas">Figurinhas</a>
+		<li style="margin-right: 20px;">
+			<a href="/figurinhas" style="text-decoration: none; color: white;">Figurinhas</a>
 		</li>
 	</ul>
 </body>
