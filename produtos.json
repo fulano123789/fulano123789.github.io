@@ -1,58 +1,131 @@
-[
-  {
-    "id": 1,
-    "nome": "iPhone 15 Pro Max 256GB Titânio Natural",
-    "descricao": "O iPhone mais avançado da Apple com chip A17 Pro, câmera de 48MP com zoom óptico 5x, tela Super Retina XDR de 6.7 polegadas e construção em titânio premium. Bateria que dura o dia todo e iOS 17 com recursos de IA.",
-    "valor": 8999.99,
-    "nota": 4.8,
-    "link_principal": "https://www.amazon.com.br/dp/B0CHX1W1XY",
-    "link_secundario": "https://www.magazineluiza.com.br/iphone-15-pro-max",
-    "imagem_url": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
-    "thumbnail_url": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?w=300",
-    "criado_em": "2024-01-20T10:30:00Z",
-    "categoria": "Eletrônicos",
-    "subcategorias": "Smartphones iPhone Apple Premium"
-  },
-  {
-    "id": 2,
-    "nome": "MacBook Air M3 13 polegadas 256GB Cinza Espacial",
-    "descricao": "Notebook ultraportátil com chip M3 da Apple, tela Liquid Retina de 13.6 polegadas, 8GB de RAM unificada e SSD de 256GB. Bateria de até 18 horas, design ultrafino e sistema macOS Sonoma.",
-    "valor": 10499.00,
-    "nota": 4.9,
-    "link_principal": "https://www.amazon.com.br/dp/B0CX23V2ZK",
-    "link_secundario": "https://www.apple.com/br/macbook-air/",
-    "imagem_url": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg",
-    "thumbnail_url": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?w=300",
-    "criado_em": "2024-01-19T14:15:00Z",
-    "categoria": "Informática",
-    "subcategorias": "Notebooks MacBook Apple M3"
-  },
-  {
-    "id": 3,
-    "nome": "PlayStation 5 Slim Digital Edition + 2 Jogos",
-    "descricao": "Console de nova geração com SSD ultra-rápido, ray tracing em hardware, áudio 3D e controle DualSense com feedback tátil. Inclui Spider-Man 2 e God of War Ragnarök. Experiência de jogo revolucionária em 4K.",
-    "valor": 3299.99,
-    "nota": 4.7,
-    "link_principal": "https://www.amazon.com.br/dp/B0CL5KNB9M",
-    "link_secundario": "https://www.casasbahia.com.br/playstation-5-slim",
-    "imagem_url": "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg",
-    "thumbnail_url": "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?w=300",
-    "criado_em": "2024-01-18T16:45:00Z",
-    "categoria": "Games",
-    "subcategorias": "Console PlayStation Sony Gaming"
-  },
-  {
-    "id": 5,
-    "nome": "Smart TV OLED LG 55 4K UHD webOS 23 ThinQ AI",
-    "descricao": "TV OLED com pixels que se iluminam individualmente, cores infinitas, contraste perfeito e brilho intenso. Processador α9 Gen6 AI, Dolby Vision IQ, Dolby Atmos e webOS 23 com ThinQ AI para casa inteligente.",
-    "valor": 4999.90,
-    "nota": 4.8,
-    "link_principal": "https://www.amazon.com.br/dp/B0BYN8VKF7",
-    "link_secundario": "https://www.lg.com/br/tvs/lg-oled55c3psa",
-    "imagem_url": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg",
-    "thumbnail_url": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?w=300",
-    "criado_em": "2024-01-16T09:10:00Z",
-    "categoria": "Eletrônicos",
-    "subcategorias": "TV OLED LG Smart 4K"
-  }
-]
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Smartphone Samsung Galaxy A54 5G 128GB",
+      "descricao": "Smartphone com tela Super AMOLED de 6.4 polegadas, câmera tripla de 50MP, processador Exynos 1380 e bateria de 5000mAh. Ideal para fotos, jogos e uso diário.",
+      "valor": 1299.99,
+      "nota": 4.5,
+      "link_principal": "https://www.amazon.com.br/dp/B0C1234567",
+      "link_secundario": "https://www.magazineluiza.com.br/smartphone-samsung-galaxy-a54",
+      "imagem_url": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg",
+      "thumbnail_url": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?w=300",
+      "criado_em": "2024-01-15T10:30:00Z",
+      "categoria": "Eletrônicos Smartphones",
+      "subcategorias": "Android Samsung 5G",
+      "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "videos": [
+        {
+          "id": "dQw4w9WgXcQ",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "platform": "youtube",
+          "title": "Review Completo do Galaxy A54",
+          "duration": "8:45"
+        },
+        {
+          "id": "unboxing_a54",
+          "url": "https://www.instagram.com/reel/CqR8sT9vXyZ/",
+          "platform": "instagram",
+          "title": "Unboxing Galaxy A54",
+          "duration": "1:30"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Notebook Lenovo IdeaPad 3i Intel Core i5 8GB 256GB SSD",
+      "descricao": "Notebook para trabalho e estudos com processador Intel Core i5 de 11ª geração, 8GB de RAM, SSD de 256GB e tela de 15.6 polegadas Full HD.",
+      "valor": 2499.90,
+      "nota": 4.2,
+      "link_principal": "https://www.amazon.com.br/dp/B0C7891011",
+      "link_secundario": "https://www.casasbahia.com.br/notebook-lenovo-ideapad-3i",
+      "imagem_url": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg",
+      "thumbnail_url": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?w=300",
+      "criado_em": "2024-01-20T14:15:00Z",
+      "categoria": "Informática Notebooks",
+      "subcategorias": "Lenovo Intel Core-i5 SSD"
+    },
+    {
+      "id": 3,
+      "nome": "Fone de Ouvido Bluetooth Sony WH-CH720N com Cancelamento de Ruído",
+      "descricao": "Fone de ouvido over-ear com cancelamento ativo de ruído, conectividade Bluetooth 5.2, bateria de até 35 horas e qualidade de áudio premium Sony.",
+      "valor": 599.99,
+      "nota": 4.7,
+      "link_principal": "https://www.amazon.com.br/dp/B0C4567890",
+      "link_secundario": "https://www.extra.com.br/fone-sony-wh-ch720n",
+      "imagem_url": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg",
+      "thumbnail_url": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?w=300",
+      "criado_em": "2024-01-25T09:45:00Z",
+      "categoria": "Áudio Fones",
+      "subcategorias": "Sony Bluetooth Cancelamento-Ruído",
+      "videos": [
+        {
+          "id": "sony_review_2024",
+          "url": "https://www.youtube.com/watch?v=abc123def456",
+          "platform": "youtube",
+          "title": "Sony WH-CH720N - Vale a Pena?",
+          "duration": "12:30"
+        },
+        {
+          "id": "tiktok_test",
+          "url": "https://www.tiktok.com/@techreview/video/7123456789012345678",
+          "platform": "tiktok",
+          "title": "Teste de Cancelamento de Ruído",
+          "duration": "0:45"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Smart TV LG 55\" 4K UHD ThinQ AI 55UP7750PSB",
+      "descricao": "Smart TV de 55 polegadas com resolução 4K UHD, processador Quad Core, ThinQ AI, WebOS 6.0 e suporte a HDR10 Pro para uma experiência visual incrível.",
+      "valor": 2199.00,
+      "nota": 4.4,
+      "link_principal": "https://www.amazon.com.br/dp/B0C9876543",
+      "link_secundario": "https://www.pontofrio.com.br/smart-tv-lg-55-4k",
+      "imagem_url": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg",
+      "thumbnail_url": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?w=300",
+      "criado_em": "2024-02-01T16:20:00Z",
+      "categoria": "TV Eletrônicos",
+      "subcategorias": "LG Smart-TV 4K 55-polegadas"
+    },
+    {
+      "id": 5,
+      "nome": "Cafeteira Expresso Automática Philips 3200 Series",
+      "descricao": "Cafeteira expresso automática com moedor de grãos integrado, 5 receitas pré-programadas, sistema LatteGo para cappuccinos cremosos e painel touch intuitivo.",
+      "valor": 3299.99,
+      "nota": 4.8,
+      "link_principal": "https://www.amazon.com.br/dp/B0C1357924",
+      "link_secundario": "https://www.submarino.com.br/cafeteira-philips-3200",
+      "imagem_url": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg",
+      "thumbnail_url": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?w=300",
+      "criado_em": "2024-02-05T11:10:00Z",
+      "categoria": "Casa Cozinha",
+      "subcategorias": "Philips Cafeteira Expresso Automática",
+      "video_url": "https://vimeo.com/123456789",
+      "videos": [
+        {
+          "id": "123456789",
+          "url": "https://vimeo.com/123456789",
+          "platform": "vimeo",
+          "title": "Como Fazer o Café Perfeito",
+          "duration": "6:15"
+        },
+        {
+          "id": "philips_demo",
+          "url": "https://www.instagram.com/reel/CrS9tU0wYzA/",
+          "platform": "instagram",
+          "title": "Demonstração da Cafeteira",
+          "duration": "2:10"
+        },
+        {
+          "id": "unboxing_philips",
+          "url": "https://www.youtube.com/watch?v=xyz789abc123",
+          "platform": "youtube",
+          "title": "Unboxing Philips 3200 Series",
+          "duration": "15:20"
+        }
+      ]
+    }
+  ]
+}
