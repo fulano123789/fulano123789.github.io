@@ -1,1 +1,72 @@
-//exemplo 
+[
+  {
+    "id": 1,
+    "nome": "iPhone 15 Pro Max 256GB Titânio Natural",
+    "descricao": "O iPhone mais avançado da Apple com chip A17 Pro, câmera de 48MP com zoom óptico 5x, tela Super Retina XDR de 6.7 polegadas e construção em titânio premium. Bateria que dura o dia todo e iOS 17 com recursos de IA.",
+    "valor": 8999.99,
+    "nota": 4.8,
+    "link_principal": "https://www.amazon.com.br/dp/B0CHX1W1XY",
+    "link_secundario": "https://www.magazineluiza.com.br/iphone-15-pro-max",
+    "imagem_url": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
+    "thumbnail_url": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?w=300",
+    "criado_em": "2024-01-20T10:30:00Z",
+    "categoria": "Eletrônicos",
+    "subcategorias": "Smartphones iPhone Apple Premium"
+  },
+  {
+    "id": 2,
+    "nome": "MacBook Air M3 13 polegadas 256GB Cinza Espacial",
+    "descricao": "Notebook ultraportátil com chip M3 da Apple, tela Liquid Retina de 13.6 polegadas, 8GB de RAM unificada e SSD de 256GB. Bateria de até 18 horas, design ultrafino e sistema macOS Sonoma.",
+    "valor": 10499.00,
+    "nota": 4.9,
+    "link_principal": "https://www.amazon.com.br/dp/B0CX23V2ZK",
+    "link_secundario": "https://www.apple.com/br/macbook-air/",
+    "imagem_url": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg",
+    "thumbnail_url": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?w=300",
+    "criado_em": "2024-01-19T14:15:00Z",
+    "categoria": "Informática",
+    "subcategorias": "Notebooks MacBook Apple M3"
+  },
+  {
+    "id": 3,
+    "nome": "PlayStation 5 Slim Digital Edition + 2 Jogos",
+    "descricao": "Console de nova geração com SSD ultra-rápido, ray tracing em hardware, áudio 3D e controle DualSense com feedback tátil. Inclui Spider-Man 2 e God of War Ragnarök. Experiência de jogo revolucionária em 4K.",
+    "valor": 3299.99,
+    "nota": 4.7,
+    "link_principal": "https://www.amazon.com.br/dp/B0CL5KNB9M",
+    "link_secundario": "https://www.casasbahia.com.br/playstation-5-slim",
+    "imagem_url": "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg",
+    "thumbnail_url": "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?w=300",
+    "criado_em": "2024-01-18T16:45:00Z",
+    "categoria": "Games",
+    "subcategorias": "Console PlayStation Sony Gaming"
+  },
+  {
+    "id": 4,
+    "nome": "AirPods Pro 2ª Geração com Case MagSafe",
+    "descricao": "Fones de ouvido sem fio com cancelamento ativo de ruído, áudio espacial personalizado, chip H2 e até 6 horas de reprodução. Case com carregamento MagSafe e resistência à água IPX4.",
+    "valor": 1899.00,
+    "nota": 4.6,
+    "link_principal": "https://www.amazon.com.br/dp/B0BDHWDR12",
+    "link_secundario": "https://www.apple.com/br/airpods-pro/",
+    "imagem_url": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg",
+    "thumbnail_url": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?w=300",
+    "criado_em": "2024-01-17T11:20:00Z",
+    "categoria": "Áudio",
+    "subcategorias": "Fones Bluetooth Apple AirPods"
+  },
+  {
+    "id": 5,
+    "nome": "Smart TV OLED LG 55 4K UHD webOS 23 ThinQ AI",
+    "descricao": "TV OLED com pixels que se iluminam individualmente, cores infinitas, contraste perfeito e brilho intenso. Processador α9 Gen6 AI, Dolby Vision IQ, Dolby Atmos e webOS 23 com ThinQ AI para casa inteligente.",
+    "valor": 4999.90,
+    "nota": 4.8,
+    "link_principal": "https://www.amazon.com.br/dp/B0BYN8VKF7",
+    "link_secundario": "https://www.lg.com/br/tvs/lg-oled55c3psa",
+    "imagem_url": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg",
+    "thumbnail_url": "https://images.pexels.com/photos/1201996/pexels-photo-1201996.jpeg?w=300",
+    "criado_em": "2024-01-16T09:10:00Z",
+    "categoria": "Eletrônicos",
+    "subcategorias": "TV OLED LG Smart 4K"
+  }
+]
